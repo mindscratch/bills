@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'thor'
+require 'bills'
+
+Bills::Cli.start(ARGV)

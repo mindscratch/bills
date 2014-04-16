@@ -1,0 +1,27 @@
+{
+  /* monthly bills */
+  "payees": [
+      {
+        "name": "netflix",         // name (unique)
+        "amount": 8.00,            // monthly cost
+        "monthly_due_date": "11"  // the day of the month the bill is due
+      }
+    ],
+  /* items where cash is withdrawn and set aside in an envelope */
+  "envelopes": [
+    {
+      "name": "trash pickup",
+      "amount": "20",
+      "frequency_due": "quarterly",
+      "next_due_date": "2014-06-15"
+    }
+  ],
+  /* bills that are irregular / not-planned-for */
+  "one_offs": [
+    {
+      "name": "Local Doctor Office",
+      "description": "so and so had an ear infection",
+      "amount": 10.00
+    }
+  ]
+}
